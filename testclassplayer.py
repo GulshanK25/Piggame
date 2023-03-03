@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import patch
 from Player import Player
 
+
 class TestPlayer(unittest.TestCase):
     @patch('builtins.input', side_effect=['r', 'h'])
     def test_round_hold(self, mock_input):
