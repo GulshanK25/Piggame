@@ -1,3 +1,5 @@
+# pylint: disable=missing-class-docstring
+
 from random import randint
 #  from Dice import Die
 from Player import Player
@@ -31,6 +33,9 @@ class Game:
             # intializing player for computer
             self.player = Player(input("enter players name :"))
             # intializing player name
+
+    def __str__(self):
+        return f"{self.value}"
 
     def letsstart(self):
         if self.opchoice == 2:
