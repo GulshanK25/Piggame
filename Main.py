@@ -1,3 +1,6 @@
+# pylint: disable=import-error
+
+
 from Game import Game
 
 
