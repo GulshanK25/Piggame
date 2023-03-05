@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 import unittest
 from unittest.mock import patch, MagicMock
 from Game import Game
@@ -6,7 +7,6 @@ from Game import Game
 
 
 class TestGame(unittest.TestCase):
-
     @patch('builtins.input', side_effect=["1", "Alice", "Bob"])
     def test_player_vs_player(self, mock_input):
         game = Game()
