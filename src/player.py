@@ -1,8 +1,6 @@
 # pylint: disable=import-error
-import sys
-
-
-from src.Dice import Die
+""" this is the player class that handles the player"""
+from src.dice import Die
 
 
 class Player:
@@ -66,8 +64,7 @@ class Player:
                     break
             else:
                 print("You quit the game.")
-                sys.exit()
+                return
         self.playerscore += self.roundscore
         print(f"Total score for {self.name} is {self.playerscore}")
         self.roundscore = 0
-

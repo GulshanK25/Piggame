@@ -1,4 +1,5 @@
 # pylint: disable=too-few-public-methods
+""" this is the dice class """
 from random import randint
 
 

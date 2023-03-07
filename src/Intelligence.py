@@ -1,7 +1,8 @@
 # pylint: disable=import-error
 
+""" this is the Intelligence class that handles the computer  """
 
-from src.Dice import Die
+from src.dice import Die
 
 
 class Intelligence:
@@ -20,7 +21,6 @@ class Intelligence:
         __str__(): Returns the name of the intelligence as a string.
         round(): Simulates a round of the game of Pig for the intelligence.
     """
-
     def __init__(self, name):
         self.name = name
         self.roundscore = 0
@@ -50,7 +50,7 @@ class Intelligence:
                 self.roundscore = 0
             else:
                 print("Sorry You Pigged!!!")
-                self.round_score = 0
+                self.roundscore = 0
                 self.computerscore += self.roundscore
                 print(f"Total score for computer is {self.computerscore}")
         else:
