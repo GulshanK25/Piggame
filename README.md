@@ -6,13 +6,20 @@ Our project is about a very famous dice game named Pig, Where the first player t
 Installing
 1) to run this code you should have an IDE that supports pyhton just like (vscode, jupiter)
 2) It is also important to have python 3 or latest version of Python to be installed on your laptops.
+3) make sure you have venv installed
 
 Usage
-Here you can add a description on how to run and use the project
+in git bash go with commands
+1) make venv
+2) ..venv/Scripts/acivate (if you are using windows)
+3) make flake8
+4) make pylint
+5) make test
+6)make coverage  
 
-⛏️ Built Using
-Here you can link the packages/modules/dependencies used to build your project
+⛏️ Built Usingwe have imported random
 
 ✍️ Authors
-Here you can add a list of authors/people who worked and maintain the project
+1) Mattias Ridderstedt.
+2) Gulshan Kumar.
 
